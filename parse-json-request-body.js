@@ -10,6 +10,7 @@ var requestBodyTemplate = parse(
     }
 );   
 
+// dataHelper.numberOfTestCases(0) <= here 0 specifies the sheet number (sheet1)
 for(i = 1 ; i < dataHelper.numberOfTestCases(0); i++ ){
     // get data array one row at a time by calling getTestData function
     values = dataHelper.getTestData(0,i);
