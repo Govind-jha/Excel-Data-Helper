@@ -8,10 +8,7 @@ var requestBodyTemplate = parse(
         acctNum  : '{{accountNumber}}',
         acctType : '{{accountType}}'
     }
-);      
-    
-// get raw json data in a local variable
-var data = dataHelper.testData;
+);   
 
 for(i = 1 ; i < dataHelper.numberOfTestCases(0); i++ ){
     // get data array one row at a time by calling getTestData function
