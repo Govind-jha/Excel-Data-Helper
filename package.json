@@ -1,0 +1,22 @@
+{
+  "name": "chakram-excel-data-helper",
+  "version": "1.0.0",
+  "description": "Read test data from excel sheet into request stubs(objects).",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "excel",
+    "reader",
+    "chakram",
+    "tool"
+  ],
+  "author": "Kumar Govind Jha",
+  "license": "MIT",
+  "dependencies": {
+    "excel": "^0.1.7",
+    "fs": "0.0.1-security",
+    "node-xlsx": "^0.10.0"
+  }
+}
